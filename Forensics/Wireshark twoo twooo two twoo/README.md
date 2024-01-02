@@ -44,3 +44,5 @@ Volvemos a wireshark y aplicamos el filtro ‘dns and ip.dst==18.217.1.57’, pa
 Los llevamos a [cybercheff](https://gchq.github.io/CyberChef/), con la configuración ‘From Base64’ y obtenemos la flag:
 
 ![Cybercheff](img/cybercheff.png)
+
+Obteniendo así la flag: 'picoCTF{dns_3xf1l_ftw_deadbeef}'.
