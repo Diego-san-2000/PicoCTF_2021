@@ -35,4 +35,4 @@ Cerramos la conexión con el comando '$exit'.
 
 ![Consola](img/console7.png)
 
-Introducimos la flag picoCTF{xxsh_0ut_0f_\/\/4t3r_21cac893}
+Introducimos la flag picoCTF{xxsh_0ut_0f_\\/\\/4t3r_21cac893}
