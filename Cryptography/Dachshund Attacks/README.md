@@ -19,10 +19,10 @@ Y obtenemos el siguiente mensaje:
 - c (mensaje cifrado): 80362839719560409550436455647104591157565576852207900182835424915739663827222041645161758053738739040063778059758792108460806929152721128757920411627788198067598906585030035226034030513126206157546489484340453630756806558171210723980787151835745546809052401398245923070510809631355844795179498402804733114894
 
 La forma de obtener el mensaje cifrado en el algoritmo RSA consiste en la fórmula:
-c = m^e^ mod n.
+c = m ^e^ mod n.
 
 Para descifrar la clave, se realiza la misma operación, en vez de con el exponente, con la clave privada:
-m = c^d^ mod n.
+m = c ^d^ mod n.
 
 Por el enunciado, sabemos que d es muy pequeña, y existe un ataque a los algoritmos RSA, llamado 'Wiener's attack', que se emplea en estos casos. 
 
