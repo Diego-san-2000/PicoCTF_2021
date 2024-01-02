@@ -15,7 +15,7 @@ Exploramos con exiftool y con strings y no encontramos nada. Al extraer con binw
 binwalk -e Forensics\ is\ fun
 ```
  
-se nos creará la siguiente carpeta con este contenido:
+Se nos creará la siguiente carpeta con este contenido:
 
 ![Consola](img/console1.png)
 
