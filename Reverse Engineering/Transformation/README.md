@@ -2,7 +2,11 @@
 ![Descripcion del CTF](img/description.png)
 
 ## Descripción
-I wonder what this really is... [enc](https://mercury.picoctf.net/static/0d3145dafdc4fbcf01891912eb6c0968/enc) ''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
+I wonder what this really is... [enc](https://mercury.picoctf.net/static/0d3145dafdc4fbcf01891912eb6c0968/enc)
+```
+''.join([chr((ord(flag[i]) << 8) + ord(flag[i + 1])) for i in range(0, len(flag), 2)])
+
+```
 
 ## Resolución
 El CTF nos proporciona un archivo 'enc' y un fragmento de código de python. El archivo 'enc' tiene el siguiente contenido:
