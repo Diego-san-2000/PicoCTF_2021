@@ -9,7 +9,7 @@ Best Stuff - Cheap Stuff, Buy Buy Buy... Store instance: [source](https://mercur
 ## Resolución
 En este caso, nos dan un archivo compilado llamado ‘source’ al cual le tendremos que dar permisos de ejecución para poder abrir.
 
-`chmod +x source` bash
+`chmod +x source`bash
 
 También nos proporcionan un enlace al servidor donde está el programa corriendo.
 
