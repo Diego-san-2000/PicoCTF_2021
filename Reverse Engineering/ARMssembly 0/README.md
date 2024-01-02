@@ -28,3 +28,7 @@ Y podremos ejecutar el archivo como siempre:
 Para convertir la flag al formato necesario podemos usar python:
 
 ![Consola](img/console3.png)
+
+Le quitamos el 0x, añadimos picoCTF{} y obtendremos la flag.
+
+Nota: Más sobre el compilador y emulador se puede encontrar en https://github.com/joebobmiles/ARMv8ViaLinuxCommandline
