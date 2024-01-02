@@ -1,14 +1,15 @@
+# Shop writeup
+
 ![Descripcion del CTF](img/description.png)  
-#Shop
-##Descripción
+
+## Descripción
+
 Best Stuff - Cheap Stuff, Buy Buy Buy... Store instance: [source](https://mercury.picoctf.net/static/a94b408ab46e6bd72f915d68be8aebc0/source). The shop is open for business at nc mercury.picoctf.net 42159.
 
-##Resolución
+## Resolución
 En este caso, nos dan un archivo compilado llamado ‘source’ al cual le tendremos que dar permisos de ejecución para poder abrir.
 
-```
-chmod +x source
-```bash
+`chmod +x source` bash
 
 También nos proporcionan un enlace al servidor donde está el programa corriendo.
 
