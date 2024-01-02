@@ -1,4 +1,4 @@
-# Obedient cat
+# Obedient Cat
 ![Descripcion del CTF](img/description.png)
 
 ## Descripción
@@ -14,5 +14,7 @@ Una vez descargado, podremos ver su contenido con el comando:
 ```
 cat flag
 ```
+
+![Consola](img/console.png)
 
 Y así obtendremos la bandera 'picoCTF{s4n1ty_v3r1f13d_28e8376d}'.
