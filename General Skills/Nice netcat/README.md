@@ -1,4 +1,4 @@
-# Nice netcat
+# Nice netcat...
 ![Descripcion del CTF](img/description.png)
 
 ## Descripción
