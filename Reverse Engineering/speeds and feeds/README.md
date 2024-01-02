@@ -13,6 +13,8 @@ Buscar con grep «pico» no nos servirá de nada.
 
 Una búsqueda en internet nos dice que es código G-Code, de un programa escrito en lenguaje de control numérico computarizado (CNC). Estos programas tienen como extensión .NC, .CNC o .GCO, pero no será necesario probar extensiones ni instalar nada, ya que hay visores online de este tipo de código, como es [NC Viewer](https://ncviewer.com/)
 
-Pegamos el código, pulsamos ‘plot’ y podremos ver la flag:
+Pegamos el código y pulsamos 'plot':
 
 ![Salida](img/output.png)
+
+Con esto obtendremos la flag 'picoCTF{num3r1cal_c0ntr0l_f3fea95b}'.
