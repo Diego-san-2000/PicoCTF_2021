@@ -11,11 +11,11 @@ Gracias al [anterior CTF de ARM](https://github.com/Diego-san-2000/PicoCTF_2021/
 
 Analizaremos el código poco a poco:
 
-.arch armv8-a
-.file «chall_1.c»
-.text
-.align 2
-.global func
+.arch armv8-a  
+.file «chall_1.c»  
+.text  
+.align 2  
+.global func  
 .type func, %function
 func:
 sub sp, sp, #32 #Reserva espacio al reduciir el puntero de pila
