@@ -9,10 +9,10 @@ Nos dan un archivo .pptm, de hoja de presentaciones, al abrirlo tiene 58 diaposi
 
 ![PowerPoint](img/powerpoint.png)
 
-Exploramos con exiftool y con strings y no encontramos nada. Al extraer con 
+Exploramos con exiftool y con strings y no encontramos nada. Al extraer con binwalk:
 
 ```
-binwalk ($ binwalk -e Forensics\ is\ fun)
+binwalk -e Forensics\ is\ fun
 ```
  
 se nos creará la siguiente carpeta con este contenido:
