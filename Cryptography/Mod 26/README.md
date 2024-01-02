@@ -1,4 +1,4 @@
-# Wave a flag
+# Mod 26
 ![Descripcion del CTF](img/description.png)
 
 ## Descripción
