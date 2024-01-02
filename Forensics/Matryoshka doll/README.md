@@ -13,7 +13,7 @@ Si la analizamos con exiftool, vemos que en realidad es un.png
 
 Vemos si tiene algún archivo dentro con la herramienta binwalk:
 
-![Consola](img/console.png)
+![Consola](img/console1.png)
 
 Y nos ha creado otra imagen llamada 2_c.jpg:
 
