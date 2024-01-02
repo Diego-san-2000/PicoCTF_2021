@@ -11,7 +11,7 @@ Nos descargamos el archivo y lo abrimos con wireshark:
 
 Parece un intercambio de paquetes entre kerberos y un cliente usando los protocolos TCP y HTTP:
 
-![Wireshark](img/wireshark.png)
+![Wireshark](img/wireshark1.png)
 
 Analizando primero la secuencia TCP nos encontramos con 16 secuencias, donde la 5 parece tener un mensaje con formato de flag:
 
