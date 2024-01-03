@@ -68,7 +68,7 @@ main: #Inicio de la función principal
 
 ```
 
-Este código, realiza lo siguiente:
+Este código realiza lo siguiente:
 1. Toma el valor introducido y lo almacena en stack+12
 2. Guarda 0 en stack+24 y stack+28
 3. Compara stack+28 con stack+12, si stack+12 es menor se repite L3
