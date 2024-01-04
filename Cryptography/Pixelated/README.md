@@ -17,7 +17,7 @@ gmic scrambled1.png scrambled2.png -blend xor -o result.png
 
 Obtenemos como resultado lo siguiente:
 
-![Imagen](img/output.png)
+![Imagen](img/output1.png)
 
 Probando con and y or no se obtiene resultado.
 
