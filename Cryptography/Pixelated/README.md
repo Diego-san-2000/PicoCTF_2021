@@ -21,7 +21,7 @@ Obtenemos como resultado lo siguiente:
 
 Probando con and y or no se obtiene resultado.
 
-Podemos crear un código en python para tratar las imágenes como matrices:
+Podemos crear un código en python para tratar las imágenes como matrices, para en vez de realizar operaciones lógicas usar operaciones matemáticas:
 
 ```
 import numpy as np
