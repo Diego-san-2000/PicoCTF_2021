@@ -41,12 +41,12 @@ cifradoIdentico = conjunto.pop()
 primeraKey = diccionarioCifrado[cifradoIdentico]
 segundaKey = diccionarioDescifrado[cifradoIdentico]
 
-print("Clave 1: {}", primeraKey)
-print("Clave 2: {}", segundaKey)
+print("Clave 1: {}".format(primeraKey))
+print("Clave 2: {}".format(segundaKey))
 
 #Creamos los objetos DES para descifrar la flag
 cifrado1 = DES.new(primeraKey, DES.MODE_ECB)
 cifrado2 = DES.new(segundaKey, DES.MODE_ECB)
 
 flagDescifrada = cifrado1.decrypt(cifrado2.decrypt(flag)).decode()
-print("Flag: {}", flagDescifrada)
+print("Flag: {}".format(flagDescifrada))
