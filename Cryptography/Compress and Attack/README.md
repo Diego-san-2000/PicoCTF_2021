@@ -7,7 +7,7 @@ Your goal is to find the flag. [compress_and_attack.py](https://mercury.picoctf.
 ## Resolucion
 Al conectarnos por netcat obtenemos el siguiente mensaje:
 
-![Consola](img/console1.png)
+![Consola](img/console.png)
 
 Nos permite encriptar el mensaje que le proporcionemos. Vamos a observar el código:
 
@@ -56,3 +56,38 @@ Con fuerza bruta, y anotando la mejor compresión obtenida, podemos averiguar la
 
 Para ello realizaremos el siguiente script de python:
 
+```
+from pwn import *
+import string
+
+conn = remote("mercury.picoctf.net", 50899)
+
+def enviar(input):
+    conn.recvuntil("encrypted:")
+    conn.sendline(input)
+    conn.recvline()
+    conn.recvline()
+    return int(conn.recvline().decode())
+
+flag = "picoCTF{"
+longitud = enviar(flag)
+actual = ""
+while actual != "}":
+    for c in string.printable:
+        if enviar(flag + c) <= longitud:
+            flag +=c
+            actual = c
+            print("Construyendo flag: {}".format(flag))
+            break
+print("La flag es: {}".format(flag))
+```
+
+Al usarlo, nos encontraremos con un error de Timeout (hemos mantenido conexión demasiado tiempo y el servidor nos ha echado):
+
+![Output](img/output1.png)
+
+Con modificar la flag conocida por la obtenida podremos seguir avanzando:
+
+![Output](img/output2.png)
+
+Obteniendo así la flag 'picoCTF{sheriff_you_solved_the_crime}'.
