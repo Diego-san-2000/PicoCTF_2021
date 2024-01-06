@@ -24,6 +24,11 @@ srch_strings dds1-alpine.flag.img | grep 'picoCTF{'
 strings dds1-alpine.flag.img | grep 'picoCTF{'
 ```
 
+Estos comandos se encargan de lo siguiente:
+1. "strings dss1-alpine.flag.img" busca todas las cadenas de caracteres en el programa.
+2. "|" Pasa la salida del comando anterior como entrada al siguiente comando, es decir, todos los resultados obtenidos los analizará el siguiente comando.
+3. "grep 'picoCTF{'" imprime por pantalla todas las coincidencias que se den con la cadena proporcionada.
+
 ![Consola](img/console.png)
 
 Obteniendo así la flag 'picoCTF{f0r3ns1c4t0r_n30phyt3_a011c142}'.
