@@ -33,7 +33,7 @@ El comando hace lo siguiente:
 - fls: Busca archivos y directorios en una imagen de disco.
 - - -r: Busca de forma recursiva (dentro de todas las carpetas disponibles).
 - - -o: Comienza la búsqueda con un offset (desplazamiento), en este caso de 2048 bytes.
-- - -p: La imagen que le proporcionamos para que busque dentro de ella.
+- - -p: Muestra toda la ruta (path) del archivo.
 - |: Toma la salida del comando anterior y la redirife como entrada al siguiente comando.
 - grep: Busca una cadena de caracteres en el texto proporcionado.
 - - "down-at-the-bottom.txt": la cadena de caracteres que queremos que busque grep.
