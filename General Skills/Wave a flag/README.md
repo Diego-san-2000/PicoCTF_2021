@@ -15,6 +15,6 @@ Le daremos permisos de ejecución y veremos qué hace:
 
 Cuando lo ejecutamos con la flag -h nos dará el siguiente mensaje:
 
-![Consola](img/console2.png)
+![Consola](img/console3.png)
 
 Y con esto estará resuelto el CTF, obteniendo la flag 'picoCTF{b1scu1ts_4nd_gr4vy_18788aaa}'.
